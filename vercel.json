@@ -1,14 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "npx vite build --outDir dist/public",
+  "outputDirectory": "dist/public",
   "framework": null,
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/(.*)", "destination": "/public/$1" }
-  ],
-  "functions": {
-    "dist/index.cjs": {
-      "runtime": "@vercel/node@3"
-    }
-  }
+    { "source": "/api/(.*)", "destination": "/api" }
+  ]
 }
