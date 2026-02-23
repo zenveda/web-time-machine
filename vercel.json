@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx vite build --outDir dist/public",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist/public",
   "framework": null,
   "rewrites": [
