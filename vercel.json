@@ -3,6 +3,7 @@
   "outputDirectory": "dist/public",
   "framework": null,
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api" }
+    { "source": "/api/wayback/search", "destination": "/api/wayback/search" },
+    { "source": "/api/wayback/evolution", "destination": "/api/wayback/evolution" }
   ]
 }
